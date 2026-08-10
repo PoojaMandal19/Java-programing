@@ -60,7 +60,7 @@
 //     }
 // }
 
-import java.util.*;
+// import java.util.*;
 
 // public class javaBasics{
 //        public static void main(String args[]){
@@ -234,13 +234,116 @@ import java.util.*;
 
 //relational operators
 
-import java.util.*;
- public class javaBasics{
-  public static void main(String args[]){
-    int a = 10;
-    // int b = 5;
-     int b = 10;
-    System.out.println((a == b));
-  }
- }
+// import java.util.*;
+//  public class javaBasics{
+//   public static void main(String args[]){
+//     int a = 10;
+//     // int b = 5;
+//      int b = 10;
+//     System.out.println((a == b));
+//   }
+//  }
+
+//if-else statement 
+// import java.util.*;
+
+// public class javaBasics{
+// public static void main(String[] args) {
+//   int age = 15;
+//   if(age >= 18){
+//     System.out.println("adult: drive,vote,ect");
+//   }
+//   else{
+//     System.out.println(" not eligible");
+//   }
+// }
+// }
+
+//wap to print the largest of 2
+//A=1 ,B=3
+// import java.util.*;
+// public class javaBasics{
+//   public static void main(String[] args) {
+//     int A = 1;
+//     int B = 3;
+//     if (A > B){
+//       System.out.println("print A");
+//     }
+//     else{
+//       System.out.println("print B");
+//     }
+//   }
+// }
+
+//wap to print if a number is odd or even 
+//4,1
+// import java.util.*;
+// public class javaBasics {
+//  public static void main(String[] args) {
+//   Scanner sc = new Scanner(System.in);
+//   int number = sc.nextInt();
+//   if(number % 2 == 0){
+//     System.out.println("number is even");
+//   } else{
+//     System.out.println("number is odd");
+//   }
+//  }
+// }
+  
+
+// else if statement
+// import java.util.*;
+// public class javaBasics {
+//  public static void main(String[] args) {
+//    int age = 13;
+//    if (age >= 18){
+//     System.out.println("adult");
+//    }else if (age >=13 && age <18){
+//     System.out.println("teeneger");
+//    }else{
+//     System.out.println("child");
+//    }
+//  }
+// }
+
+ //income tex calculator
+//  import java.util.*;
+//  public class javaBasics {
+//   public static void main(String[] args) {
+//     Scanner sc  = new Scanner(System.in);
+//     int income = sc.nextInt();
+//     int tax;
+
+//     if(income < 500000){
+//        tax = 0;
+//     }else if (income >= 500000 && income < 1000000){
+//       tax = (int) (income * 0.2);
+//     }else {
+//       tax = (int) (income * 0.3);
+//     }
+//     System.out.println("your text is :" + tax);
+//   }
+//  }
+
+//wap to print the largest of three number
+//A = 1,B = 3 ,C = 6
+
+// import java.util.*;
+// public class javaBasics {
+//   public static void main(String[] args) {
+//     int A = 1 ,B = 3 ,C = 6 ;
+
+//     if (( A >= B) && ( A >= C)){
+//      System.out.println("largest is A");
+//     }
+//     else if (B>=C){
+//       System.out.println("largest is B");
+//     }
+//     else {
+//       System.out.println("largest is C");
+//     }
+//   }
+// }
+
+
 
